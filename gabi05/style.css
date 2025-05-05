@@ -8,13 +8,13 @@
 
 body{
     min-height: 100vh;
-    background-color: rgb(139, 2, 32);
+    background-color: rgb(45, 9, 114));
     margin: 0 auto;
 }
 
 header {
-    background-color: #8a001e;
-    box-shadow: 0 2px 10px rgba(156, 2, 35, 0.1);
+    background-color: #2b0f6d;
+    box-shadow: 0 2px 10px rgba(85, 16, 141, 0.1);
     height: 100px;
 }
 
@@ -59,7 +59,7 @@ img{
 }
 
 .nav-links a:hover {
-    color: #83001c;
+    color: #2b1266;
 }
 
 .nav-links a::after {
@@ -69,7 +69,7 @@ img{
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #77021b;
+    background-color: #32115e;
     transition: width 0.3s ease;
 }
 
@@ -78,8 +78,8 @@ img{
 }
 
 .login-btn {
-    background-color: #5e071a;
-    color: rgb(167, 4, 39);
+    background-color: #2f1052;
+    color: rgb(59, 20, 95);
     padding: 0.5rem 1rem;
     border-radius: 5px;
     margin-left: 2rem;
@@ -87,8 +87,8 @@ img{
 }
 
 .login-btn:hover {
-    background-color: #030001;
-    color: rgb(0, 0, 0);
+    background-color: #320a57;
+    color: rgb(40, 18, 92);
 }
 
 .login-btn::after {
@@ -105,7 +105,7 @@ img{
 .menu-toggle span {
     height: 3px;
     width: 25px;
-    background-color: rgba(122, 0, 20, 0.938);
+    background-color: rgba(56, 17, 88, 0.938);
     margin: 3px 0;
     transition: all 0.3s ease;
 }
@@ -117,7 +117,7 @@ img{
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: #920524;
+        background-color: #2f0f58;
         flex-direction: column;
         align-items: center;
         padding: 2rem 0;
